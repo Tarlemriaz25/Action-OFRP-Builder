@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/TeamWin/android_device_samsung_herolte'
+        default: 'https://github.com/ananjaser1211/android_device_samsung_hero'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-9.0'
+        default: 'herolte'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: twrp_herolte'
+        default: omni_herolte'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
